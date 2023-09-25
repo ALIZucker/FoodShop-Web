@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#line {
+    border-left: 1px floralwhite solid;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #001a33;
+
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    color: wheat;
+}
+
+header ul li {
+    margin-left: 2em;
+    font-size: 20px;
+
+    font-family: Calibri;
+    cursor: pointer;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+
+header ul li button:hover {
+    background-color: brown;
+}
+
+header ul li button {
+
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: wheat;
+    font-family: Calibri;
+    border: 1px #ffffb3 solid;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+#mainImage {
+    background-image: url("assets/img/food-4k-3gsi5u6kjma5zkj0.jpg");
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+
+}
+
+#logo {
+    color: #ffffb3;
+    margin-right: 55px;
+    margin-top: 25px;
+    border: 2px wheat dashed;
+    margin-bottom: 25px;
+    padding: 4px;
+    cursor: pointer;
+}
+#title{
+    color: #ffecb3;
+    font-family: Calibri;
+    padding-top: 110px;
+    padding-left: 20px;
+    font-size: 60px;
+}
+div p{
+    color:  #ffecb3;
+    padding-top: 80px;
+    font-size: 17px;
+    padding-left: 20px;
+
+}
+
+#contain{
+    display: flex;
+    justify-content: left;
+}
+#slider{
+    list-style-type: none;
+    width: 30%;
+    background-color: cadetblue;
+    text-align: center;
+
+}
+#slider ul li a{
+    text-decoration: none;
+}
