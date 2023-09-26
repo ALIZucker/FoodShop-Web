@@ -3,40 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta xml:lang="En">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/Css/style.css">
     <title>Title</title>
 </head>
 <body>
+<!-- HEADER -->
 <header>
     <ul>
-        <li ><button > Sing Up</button></li>
-        <li><button > Login</button></li>
+        <li>
+            <button onclick="showelman('go to Sing Up ')"> Sing Up</button>
+        </li>
+        <li>
+            <button onclick="showelman('go to Login ')"> Login</button>
+        </li>
         <li id="line"></li>
-        <li>Our Services</li>
-        <li>Shop</li>
-        <li>Resturant</li>
+        <li onclick="showelman('Go to Our Services')">Our Services</li>
+        <li onclick="showelman('Go to Our Shop')">Shop</li>
+        <li onclick="showelman('Go to Our Resturant')">Resturant</li>
     </ul>
     <h1 id="logo">LOGO</h1>
 </header>
+
+<!-- mainImage -->
+
 <div id="mainImage">
     <h1 id="title">Explore Limitless Food</h1>
     <p>FEED YOUR POTENTIAL & attain higher levels of <br>performance with LIMITLESS’s nutrition optimized</p>
 </div>
+<div id="takhfif">
+    <h2>Up to 50% off the best nuts</h2>
+    <img src="assets/img/nutss.png">
+
+</div>
+<!-- nav - slider -->
 <div id="contain">
     <nav id="slider">
         <ul>
-            <li><a href="#">London</a></li>
-            <li><a href="#">Paris</a></li>
-            <li><a href="#">Tokyo</a></li>
+            <li><a href="#Pizza"><img class="imgslider" src="assets/img/slider1.jpg"><br>Fast Food</a></li>
+            <li>
+                <a href="#" onclick="showelman('Sorry. out of  Juice')"><img class="imgslider"
+                                                                             src="assets/img/slider2.jpg"><br>Juice</a>
+            </li>
+            <li>
+                <a href="#Akbar"><img class="imgslider" src="assets/img/slider3.jpg"><br>Salad</a></li>
+            <li>
+                <a href="#Cake"><img class="imgslider" src="assets/img/slider4.jpg"><br>Pie</a></li>
+            <li>
+                <a href="#" onclick="showelman('Sorry. out of Ice Cream')"><img class="imgslider"
+                                                                                src="assets/img/slider5.avif"><br>Ice
+                    Cream</a></li>
+            <li>
+                <a href="#" onclick="showelman('Sorry. out of Coffee')"><img class="imgslider"
+                                                                             src="assets/img/slider6.png"><br>Coffee</a>
+            </li>
         </ul>
     </nav>
+    <!-- article -->
     <div id="articleContain">
+        <article id="Pizza">
+            <img class="imagepost" src="assets/img/pic2.jpg">
+            <h1>Pizza</h1>
+            <p>Pizza is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough
+                topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high
+                temperature, traditionally in a wood-fired oven.</p>
+            <button title="آیا مطمئن هستی؟" class="bnt" onclick="showelman('Successfully. Add to Basket')"> + Add to
+                Basket
+            </button>
 
+        </article>
+        <article id="Kabab">
+            <img class="imagepost" src="assets/img/pic1.jpg">
+            <h1>Kabab koobideh</h1>
+            <p>Kabab koobideh or Kobide is an Iranian type of kofta kabab made from ground lamb or beef, often mixed
+                with ground pepper and chopped onions</p>
+            <button title="آیا مطمئن هستی؟" class="bnt" onclick="showelman('Successfully. Add to Basket')"> + Add to
+                Basket
+            </button>
+        </article>
+        <article id="Akbar">
+            <img class="imagepost" src="assets/img/pic3.jpg">
+            <h1>Akbar Joje</h1>
+            <p>Anyway, Akbar Joje underwent many changes during his career. Akbar Chojeh was formed for the first time
+                in Galugah, which is one of the cities of Mazandaran province of Iran and in the eastern region of
+                Mazandaran province. ghout Iran because of the travelers who ate in this restaurant. .</p>
+            <button title="آیا مطمئن هستی؟" class="bnt" onclick="showelman('Successfully. Add to Basket')"> + Add to
+                Basket
+            </button>
+
+        </article>
+        <article>
+            <img class="imagepost" src="assets/img/pic4.jpg">
+            <h1>Cheeseburger</h1>
+            <p>A cheeseburger is a hamburger with a slice of melted cheese on top of the meat patty, added near the end
+                of the cooking time</p>
+            <button title="آیا مطمئن هستی؟" class="bnt" onclick="showelman('Successfully. Add to Basket')"> + Add to
+                Basket
+            </button>
+
+        </article>
+        <article>
+            <img class="imagepost" src="assets/img/pic5.jpg">
+            <h1>Chicken </h1>
+            <p>I’ve had this idea in my head for several weeks now, and finally got around to testing it yesterday. And
+                let me tell you, it’s absolutely delicious: the chicken crisps up first a salt seasoning layer, and then
+                gets glazed with a mixture of lavender, honey, and lemon for the second half of the bake.</p>
+            <button title="آیا مطمئن هستی؟" class="bnt" onclick="showelman('Successfully. Add to Basket')"> + Add to
+                Basket
+            </button>
+
+        </article>
+        <article id="Cake">
+            <img class="imagepost" src="assets/img/pic6.jpg">
+            <h1>BEST Cake</h1>
+            <p>You’re going to love this Zebra Cake! Yellow and chocolate cake batters are layered together to create a
+                gorgeous two-layer Zebra Cake. </p>
+            <button title="آیا مطمئن هستی؟" class="bnt" onclick="showelman('Successfully. Add to Basket')"> + Add to
+                Basket
+            </button>
+        </article>
     </div>
 </div>
+<!-- footer -->
+<footer>
+    <div>
+        <h3 class="titletext">website foods</h3>
+        <p class="textcont">Commercial and Internet network for buying food</p>
+        <a title="Go to top" href="#logo"><img id="topbtn" src="assets/img/top-14-48.png"></a>
+    </div>
+    <div>
+        <h3 class="titletext"> About</h3>
+        <ul>
+            <li class="itemmenu">Our Team</li>
+            <li class="itemmenu">Terms</li>
+            <li class="itemmenu">Jobs</li>
+        </ul>
+    </div>
+    <div>
+        <h3 class="titletext"> Usefull Links</h3>
+        <ul>
+            <li class="itemmenu">Travel</li>
+            <li class="itemmenu">Categories</li>
+            <li class="itemmenu">testimonials</li>
+            <li class="itemmenu">Off Foods</li>
+        </ul>
+    </div>
+    <div>
+        <h3 class="titletext"> Usefull Links</h3>
+        <ul>
+            <li class="itemmenu"><img class="iconus" src="assets/img/icons8-call-50.png"> 09112345678</li>
+            <li class="itemmenu"><img class="iconus" src="assets/img/Gmail_Logo_White_64px.png">FoodShop@gmaill.com</li>
+            <li class="itemmenu"><img class="iconus"
+                                      src="assets/img/icons8-location-50.png"><i>Mazandaran_Sari_juybar</i></li>
 
+        </ul>
+    </div>
 
-
+</footer>
+<hr>
+<div id="copyright">
+    <p class="textcont">Copyright @2022 All right reserved|This template is made by Ali Zabihi</p>
+    <p></p>
+</div>
 
 </body>
+<script>
+    function showelman(value) {
+        alert(value)
+    }
+</script>
 </html>
